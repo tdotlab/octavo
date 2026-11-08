@@ -1,0 +1,10 @@
+[package]
+name = "octavo-rewrite"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+eframe = "0.31"
+rfd = "0.15"
+arboard = "3.4"

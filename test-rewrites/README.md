@@ -11,6 +11,6 @@ Each port's README records its own source revision and compatibility differences
 | Rewrite | Location | Status |
 | --- | --- | --- |
 | Python / Tkinter | [`python/`](python/) | Runnable; 16 included tests passed under Python 3.13 and Xvfb on 2026-11-04 |
-| Rust | Not yet committed | GUI/engine draft awaits compiler and runtime verification; do not mistake it for a completed port |
+| Rust / egui | [`rust/`](rust/) | Source draft committed at owner's request; not yet compiled or runtime-tested |
 
 The rewrites intentionally implement their **own text buffers and editing semantics**, rather than using a native multiline text widget. UI toolkits are used for windows, fonts, painting, menus and dialogs. They do not guarantee pixel-identical rendering or behavior across platforms.

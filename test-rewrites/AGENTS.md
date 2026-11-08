@@ -6,3 +6,4 @@
 - Keep each rewrite self-contained, with tests and its own README; avoid shared runtime dependencies between ports.
 - Do not call a port finished until its build and relevant tests have been run. Document behavior differences plainly.
 - Python entry point: `python/octavo.py`; Python tests: `python/test_octavo.py`.
+- Rust entry point: `rust/src/main.rs`; build with `cargo run`, check with `cargo test --lib` and `cargo check` (not yet verified).
